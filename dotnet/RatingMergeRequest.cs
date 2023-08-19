@@ -1,7 +1,3 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace Sabio.Models.Requests.Ratings
-{
     public class RatingMergeRequest
     {
         [Required]
@@ -12,4 +8,3 @@ namespace Sabio.Models.Requests.Ratings
         public int EntityTypeId { get; set; }
         public bool? IsDeleted { get; set; }
     }
-}
